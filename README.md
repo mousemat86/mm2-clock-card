@@ -30,7 +30,7 @@ The following properties can be configured:
 | `timezone`        | Specific a timezone to show clock. <br><br> **Possible examples values:** `America/New_York`, `America/Santiago`, `Etc/GMT+10` <br> **Default value:** `none`. See more informations about configuration value [here](https://momentjs.com/timezone/docs/#/data-formats/packed-format/)
 
 ## Installation
-Download the contents of the `dist/` folder from the latest release and store it in your configuration/www folder. 
+Download the 'download.zip' folder from the latest release and store it in your configuration/www folder. 
 
 Configure Lovelace to load the card:
 
