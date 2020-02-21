@@ -28,3 +28,14 @@ The following properties can be configured:
 | `analogPlacement` | **Specific to the analog clock. _(requires displayType set to `'both'`)_** Specifies where the analog clock is in relation to the digital clock <br><br> **Possible values:** `top`, `right`, `bottom`, or `left` <br> **Default value:** `bottom`
 | `analogShowDate`  | **Specific to the analog clock.** If the clock is used as a separate module and set to analog only, this configures whether a date is also displayed with the clock. <br><br> **Possible values:** `false`, `top`, or `bottom` <br> **Default value:** `top`
 | `timezone`        | Specific a timezone to show clock. <br><br> **Possible examples values:** `America/New_York`, `America/Santiago`, `Etc/GMT+10` <br> **Default value:** `none`. See more informations about configuration value [here](https://momentjs.com/timezone/docs/#/data-formats/packed-format/)
+
+## Installation
+Download the contents of the `dist/` folder from the latest release and store it in your configuration/www folder. 
+
+Configure Lovelace to load the card:
+
+```yaml
+resources:
+  - url: /local/mm2-clock-card.js
+    type: module
+```
