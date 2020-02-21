@@ -20,7 +20,15 @@ const serveopts = {
 
 const plugins = [
   nodeResolve({}),
-  commonjs(),
+  commonjs(
+    {
+    include: [
+        'node_modules/rxjs/**',
+        'node_modules/moment/**',
+        'node_modules/moment-timezone/**'
+      ]
+    }
+  ),
   typescript(),
   json(),
   babel({
@@ -32,7 +40,7 @@ const plugins = [
 
 export default [
   {
-    input: 'src/boilerplate-card.ts',
+    input: 'src/mm2-clock-card.ts',
     output: {
       dir: 'dist',
       format: 'es',
