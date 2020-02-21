@@ -1,5 +1,5 @@
 {
-  "name": "MM2 Clock Card",
+  "name": "mm2-clock-card",
   "version": "1.1.7",
   "description": "Lovelace Clock Card (Ported from MagicMirror2)",
   "keywords": [

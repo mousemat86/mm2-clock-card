@@ -369,7 +369,7 @@ export class MM2ClockCard extends LitElement {
         this._config.analogFace !== 'simple' &&
         this._config.analogFace !== 'none'
       ) {
-        clockCircle.style.background = 'url(' + './faces/' + this._config.analogFace + '.svg)';
+        clockCircle.style.background = 'url("/local/faces/' + this._config.analogFace + '.svg")';
         clockCircle.style.backgroundSize = '100%';
 
         // The following line solves issue: https://github.com/MichMich/MagicMirror/issues/611
